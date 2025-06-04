@@ -1,0 +1,4 @@
+a0 ->g0 a3
+a3 ->g1 a12 |g2 a3
+a12 ->g3 a12 |g4 a18
+a18 ->g5 a18 | EPSILON

@@ -1,0 +1,571 @@
+﻿{
+  "name": "G => NEA",
+  "type": "NEA",
+  "automaton": {
+    "Alphabet": [
+      "1",
+      "4",
+      "2",
+      "5"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "s0",
+        "x": 180,
+        "y": 370,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1"
+            ]
+          }
+        ],
+        "Start": true,
+        "Final": false
+      },
+      {
+        "ID": 9,
+        "Name": "s36",
+        "x": 670,
+        "y": 280,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 9,
+            "Target": 10,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 24,
+        "Name": "s208",
+        "Final": true,
+        "Start": false,
+        "x": 900,
+        "y": 370,
+        "Radius": 30,
+        "Transitions": []
+      },
+      {
+        "ID": 23,
+        "Name": "s77",
+        "x": 780,
+        "y": 460,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 23,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 11,
+        "Name": "s40",
+        "x": 560,
+        "y": 460,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 11,
+            "Target": 22,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          },
+          {
+            "Source": 11,
+            "Target": 12,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 10,
+        "Name": "s38",
+        "x": 560,
+        "y": 280,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 10,
+            "Target": 6,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 14,
+        "Name": "s46",
+        "x": 780,
+        "y": 550,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 14,
+            "Target": 15,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 12,
+        "Name": "s41",
+        "x": 560,
+        "y": 550,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 12,
+            "Target": 13,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 13,
+        "Name": "s45",
+        "x": 670,
+        "y": 550,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 13,
+            "Target": 14,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 20,
+        "Name": "s68",
+        "x": 430,
+        "y": 640,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 20,
+            "Target": 21,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 8,
+        "Name": "s33",
+        "x": 780,
+        "y": 280,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 8,
+            "Target": 9,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 18,
+        "Name": "s59",
+        "x": 780,
+        "y": 730,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 18,
+            "Target": 17,
+            "x": 220,
+            "y": -190,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 2,
+        "Name": "s8",
+        "x": 300,
+        "y": 370,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 4,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 3,
+            "x": 30,
+            "y": 10,
+            "Labels": [
+              "4"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 2,
+            "x": 0,
+            "y": -50,
+            "Labels": [
+              "2"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 21,
+        "Name": "s71",
+        "x": 430,
+        "y": 460,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 21,
+            "Target": 11,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 17,
+        "Name": "s54",
+        "x": 670,
+        "y": 730,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 17,
+            "Target": 18,
+            "x": 220,
+            "y": -200,
+            "Labels": [
+              "5"
+            ]
+          },
+          {
+            "Source": 17,
+            "Target": 16,
+            "x": 40,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 3,
+        "Name": "s13",
+        "x": 300,
+        "y": 460,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 2,
+            "x": 40,
+            "y": 0,
+            "Labels": [
+              "4"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 16,
+        "Name": "s50",
+        "x": 670,
+        "y": 640,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 16,
+            "Target": 17,
+            "x": 30,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          },
+          {
+            "Source": 16,
+            "Target": 19,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 19,
+        "Name": "s66",
+        "x": 560,
+        "y": 640,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 19,
+            "Target": 20,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 7,
+        "Name": "s31",
+        "x": 780,
+        "y": 370,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 7,
+            "Target": 24,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1"
+            ]
+          },
+          {
+            "Source": 7,
+            "Target": 8,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 6,
+        "Name": "s30",
+        "x": 560,
+        "y": 370,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 6,
+            "Target": 11,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          },
+          {
+            "Source": 6,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 22,
+        "Name": "s75",
+        "x": 670,
+        "y": 460,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 22,
+            "Target": 23,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 5,
+        "Name": "s17",
+        "x": 430,
+        "y": 280,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 5,
+            "Target": 4,
+            "x": 180,
+            "y": -140,
+            "Labels": [
+              "1"
+            ]
+          },
+          {
+            "Source": 5,
+            "Target": 5,
+            "x": 0,
+            "y": -50,
+            "Labels": [
+              "1"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 15,
+        "Name": "s49",
+        "x": 780,
+        "y": 640,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 15,
+            "Target": 16,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "5"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      },
+      {
+        "ID": 4,
+        "Name": "s16",
+        "x": 430,
+        "y": 370,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 4,
+            "Target": 6,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1"
+            ]
+          },
+          {
+            "Source": 4,
+            "Target": 5,
+            "x": 210,
+            "y": -170,
+            "Labels": [
+              "1"
+            ]
+          }
+        ],
+        "Start": false,
+        "Final": false
+      }
+    ],
+    "acceptCache": [],
+    "simulationInput": [],
+    "StackAlphabet": [
+      "|"
+    ],
+    "lastInputs": []
+  }
+}
