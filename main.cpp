@@ -29,7 +29,7 @@ int main()
     //std::cout << fsm.PrintTimes() << std::endl;
 
 	std::ofstream dfaFile("DFA.txt");
-	dfaFile << fsm.PrintRegularAutomota(0, 30, "q", "t");
+	dfaFile << fsm.PrintRegularAutomota(0, 0, "q", "t");
 	dfaFile.close();
     
 	//std::ofstream regFile("RLG.txt");
